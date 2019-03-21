@@ -1,3 +1,4 @@
+/* pre-built css */
 html {
     height: 100%;
   }
@@ -8,6 +9,7 @@ html {
     position: relative;
     margin: 0;
     height: 100%;
+    box-sizing:border-box;
   }
   
   .ptr-space {
@@ -226,3 +228,37 @@ html {
     clear: both;
   }
   
+  /* Custom CSS */
+
+  #formCard{
+    width:33vw;
+    display:flex;
+    background-color:white;
+    justify-content:center;
+    margin:0 auto;
+    margin-top:5vh;
+    border-radius:5%;
+    opacity: 0.5;
+  }
+
+  form {
+    /* display:flex; */
+    width:100%;
+    /* display:block; */
+  }
+
+  input, input:active, input:focus {
+    outline: none;
+    width:66.6%;
+    display:block;
+    margin:0 auto;
+    border:0;
+    border-bottom:1px solid black;
+    font-size:2rem;
+
+  }
+
+  input[type=submit] {
+    background-color:orange;
+    border:0;
+  }
