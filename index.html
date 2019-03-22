@@ -20,7 +20,7 @@
   <body>
     <div id="formCard">
       <form id = 'newPlanetForm'>
-        <h3>Add a planet!</h3>
+        <h1 id="add-planet">Add a planet!</h1>
         <input type="text" name = 'size' id = 'newPlanetSize' placeholder='size(e.g.:200x200)'>
         <input type="text" name = 'img' id = 'newPlanetImg' placeholder = 'imageurl' >
         <input type="number" name = 'speed' id = 'newPlanetSpeed' placeholder = 'speed'>
@@ -29,9 +29,11 @@
         <input type="text" name="ringColor" id = 'newPlanetRingColor' placeholder = 'ring color hex code'>
 
         <!-- <span>Rings?</span> <input type="checkbox" name="ring" id="ringCheck"> -->
-        <input type="submit" value="make a planet">
+        <button type="submit" class="btn">Make a Planet</button>
+        <button type="button" class="btn" id="random-planet-button">Generate Random Planet</button>
       </form>
     </div>
+
     <div id="galaxyDiv">
       <div data-ptr-size="200x200" data-ptr-pattern="assets/images/texture-saturn.jpg" data-ptr-ring="true" class="saturn planet"></div>
       <div data-ptr-size="500x500"  data-ptr-autospin="7000ms" data-ptr-pattern="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGQCIFSeg4UELswFYACDju9XV28XAvNELycpss3ZafVCNhuJT4UQ" data-ptr-ringcolor='#bada55' data-ptr-ring= 'true' class="joe planet"></div>
