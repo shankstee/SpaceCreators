@@ -145,9 +145,6 @@ html {
     -webkit-box-shadow: none;
     box-shadow: none;
     background-color: #4D90FE;
-    background-image: -webkit-linear-gradient(top,#4D90FE,#4787ED);
-    background-image: -webkit-moz-gradient(top,#4D90FE,#4787ED);
-    background-image: linear-gradient(top,#4d90fe,#4787ed);
     border: 1px solid #3079ED;
     color: #FFF;
   }
@@ -159,17 +156,14 @@ html {
     -webkit-box-shadow: none;
     box-shadow: none;
     background-color: #4D90FE;
-    background-image: -webkit-linear-gradient(top,#4D90FE,#4787ED);
-    background-image: -moz-linear-gradient(top,#4D90FE,#4787ED);
-    background-image: linear-gradient(top,#4d90fe,#4787ed);
-    border: 1px solid #3079ED;
+    border: 1px solid black;
     color: #FFF;
   }
   .clear {
     width: auto;
   }
   .btn:hover, .btn:hover {
-    background: #317af2;
+    background-color: rgb(245, 184, 72);;
   }
   .btns {
     float: left;
@@ -258,7 +252,26 @@ html {
 
   }
 
-  input[type=submit] {
+  button[type=submit], #random-planet-button {
     background-color:orange;
     border:0;
+    width: 45%;
+    float: left;
+    border-radius: 20px;
+    margin: 1%
+  }
+
+  #random-planet-button:hover {
+    background-color: rgb(245, 184, 72);
+  }
+
+  #random-planet-button{
+    float: right;
+  }
+
+  #add-planet {
+    color: black;
+    margin-top: 15px;
+    font-size: 40px;
+    font-weight: bold;
   }
